@@ -1,0 +1,32 @@
+{
+  "name": "dell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r esm index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "cheerio": "^1.0.0-rc.3",
+    "csv-parser": "^2.3.2",
+    "ejs": "^2.7.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "html2json": "^1.0.2",
+    "mysql": "^2.17.1",
+    "nightmare": "^3.0.2",
+    "nodemon": "^1.19.4",
+    "pug": "^2.0.4",
+    "puppeteer": "^2.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "website-to-json": "^1.0.22"
+  }
+}
